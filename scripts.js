@@ -9,6 +9,7 @@ function generateRandomNumber() {
 }
 
 rollBtn.addEventListener("click", () => {
+    rollBtn.innerText = "Roll Again !"
     const player1 = generateRandomNumber(); 
     const player2 = generateRandomNumber(); 
 
